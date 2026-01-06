@@ -1,4 +1,4 @@
-module go.opentelemetry.io/collector
+module github.com/rmn-mann/opentelemetry-collector/exporter/otlphttpexporter
 
 // NOTE:
 // This go.mod is NOT used to build any official binary.
