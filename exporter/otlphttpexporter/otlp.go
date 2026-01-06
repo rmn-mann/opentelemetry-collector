@@ -264,7 +264,7 @@ func isRetryableStatusCode(code int) bool {
 	case http.StatusGatewayTimeout:
 		return true
 	default:
-		return false
+		return true
 	}
 }
 
